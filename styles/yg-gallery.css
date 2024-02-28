@@ -1,0 +1,17 @@
+.yg-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:3px;
+}
+
+.yg-gallery img {
+  width: 100%;
+  transition: 0.2s;
+}
+
+.yg-gallery img:hover {
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  width:100.2%;
+  height:100.2%;
+}

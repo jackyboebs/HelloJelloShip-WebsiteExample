@@ -1,0 +1,36 @@
+:root {
+  --brand-blue: #33CCFF;
+  --white: #ffffff;
+  --body-font: "Poppins", sans-serif;
+  --border-radius: 10px;
+  --update-text: 20px;
+}
+
+body {
+  margin: auto;
+  padding-top: 20px;
+  width: 1500px;
+  font-family: var(--body-font);
+  background-color: var(--brand-blue);
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.content-heading img {
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

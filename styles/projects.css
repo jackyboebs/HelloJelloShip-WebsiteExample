@@ -1,0 +1,110 @@
+.poster {
+  padding: 10px;
+}
+.poster img {
+  width:100%;
+  height:100%;
+  transition: 0.2s;
+}
+
+.poster img:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  width:101%;
+  height:101%;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.client-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.original-row {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--brand-blue);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.project-header-left {
+  text-justify: left;
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--brand-blue);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.project-banner img {
+    width: 500px;
+}
+
+.box {
+  width: auto;
+  margin: 50px auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--brand-blue);
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+}
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid var(--brand-blue);
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--brand-blue);
+  border-bottom: 10px solid transparent;
+  right: -20px;
+  top: 0px;
+}
+
+.client-photo {
+  padding-left: 15px;
+}
+
+.client-photo img {
+  border-radius: var(--border-radius);
+  margin: 0px;
+  width: 200px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.memoir-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memoir-lookdev {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+}

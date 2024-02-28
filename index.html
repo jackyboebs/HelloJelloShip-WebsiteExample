@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HelloJelloShip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5bdd36adf9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="images/logos/Favicon.png">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/page-container.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/collapsible.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+  </head>
+
+  <body>
+    <div class="navigation-wrapper">
+      <div class="logo">
+        <a href="index.html">
+        <img src="images/logos/HelloJelloShip_FullLogo.gif" alt="Logo"></a>
+      </div>
+      <div class="links-wrapper">
+        <a href="about.html">About</a>
+        <a href="projects.html">Work</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html">Originals</a>
+      </div>
+    </div>
+
+    <div class="page-container">
+      <div class="top-section">
+
+        <!-- Demo Reel -->
+
+        <div class="media">
+          <iframe width="768" height="432" src="https://www.youtube.com/embed/JA74Iv-SZyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="spacer10"></div>
+
+        <!-- Link to contact page -->
+
+        <a href="contact.html" class="button">Let's Work Together!</a>
+      </div>
+
+      <div class="bottom-section">
+
+        <!-- Intro -->
+
+          <div class="left-column" style="padding-right:35px">
+          <div class="content-heading">
+            <img src="images/headings/welcome-aboard.png" alt="Welcome Aboard">
+          </div>
+          <div class="project-header-left">Who We Are</div>
+          <div class="content-wrapper">
+            To craft genuine stories and characters through an artist-led entertainment studio.
+          </div>
+          <div class="project-header-left">What We Offer</div>
+          <div class="content-wrapper">
+            We are a one-stop shop to bring an animated project through the full production process, from concept and design to final product. You'll find a broad range of work with clients - short films, branding, animated paintings, and more. <br><br>We specialize in 2D cel animation, motion graphics, and 3D computer animation.
+          </div>
+        </div>
+
+        <div class="right-column">
+          <div class="banner">
+            <img src="images/gifs/HelloJelloShip_Banner.gif" style="padding-top: 25px;" alt="Ahoy, jelly boy!">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social">
+        <div class="instagram-icon">
+          <a href="https://www.instagram.com/hellojelloship/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+        <div class="twitter-icon">
+          <a href="https://twitter.com/hellojelloship" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        <div class="youtube-icon">
+          <a href="https://www.youtube.com/channel/UCDiqt9zvfLAwmo6tPJq4xAg" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        </div>
+      </div>
+      <div class="copyright">
+              &copy; 2022 HelloJelloShip LLC &#124; All rights reserved
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+</html>

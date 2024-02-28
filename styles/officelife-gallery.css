@@ -1,0 +1,66 @@
+.officelife-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:3px;
+}
+
+.officelife-gallery img {
+  width: 100%;
+  transition: 0.2s;
+}
+
+.officelife-gallery img:hover {
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  width:100.2%;
+  height:100.2%;
+}
+
+.box {
+  width: 200px;
+  height: auto;
+  margin: 50px auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--brand-blue);
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+}
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid var(--brand-blue);
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--brand-blue);
+  border-bottom: 10px solid transparent;
+  right: -20px;
+  top: 0px;
+}
+
+.officelife-top {
+}
+
+.jb-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jb-portrait img {
+  width: 200px;
+}
+
+.jb-speech {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

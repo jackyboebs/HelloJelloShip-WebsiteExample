@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HelloJelloShip - Office Life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5bdd36adf9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="images/logos/Favicon.png">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/page-container.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/officelife-gallery.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+  </head>
+
+  <body>
+    <div class="navigation-wrapper">
+      <div class="logo">
+        <a href="index.html">
+        <img src="images/logos/HelloJelloShip_FullLogo.gif" alt="Logo"></a>
+      </div>
+      <div class="links-wrapper">
+        <a href="index.html">About</a>
+        <div class="dropdown"><a href="#">Work</a>
+          <div class="dropdown-content">
+            <a href="projects.html">Projects</a>
+            <a href="images/projects/JackMcCaffrey_Resume_2021_v1.pdf" target="_">Resume</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <div class="dropdown"><a href="#">The Hub</a>
+          <div class="dropdown-content">
+            <a href="office-life.html">Office Life</a>
+            <a href="captains-log.html">Captain's Log</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-container">
+
+      <!-- Office Life Title -->
+
+      <div class="project-banner">
+        <img src="images/officelife/office-life-header.png" alt="Office Life">
+      </div>
+
+      <div class="spacer30"></div>
+
+      <!-- Office Life Post -->
+
+      <div class="officelife-top">
+        <div class="jb-main" style="text-align:center"><img id="change" src="images/officelife/JellyBoy_01_Intro.png" style="width:600px; border-radius: var(--border-radius);" alt="JellyBoy01"><p style="font-size:15px; max-width:800px;" id="posttext">We’re proud to introduce HelloJelloShip’s new unpaid social media intern: Jelly Boy! He’s offered to give you all a weekly behind the scenes look into life here at the undersea office.</p></div>
+
+      <!-- Jelly Boy speech bubble -->
+
+        <div class="jb-speech">
+          <div class="left-column">
+            <div class="box sb1"><p style="font-size:15px;" id="jbtext">when is lunch?</p></div>
+          </div>
+          <div class="right-column">
+            <div class="jb-portrait"><img src="images/officelife/JB-speechbubble.png" alt="Jelly Boy Portrait"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spacer30"></div>
+
+      <!-- Office Life gallery -->
+
+      <div class="officelife-gallery">
+        <img src="images/officelife/JellyBoy_12_Halloween.png" alt="JellyBoy12" onClick="changevid('images/officelife/JellyBoy_12_Halloween.png'); change_text('Through the hallowed halls and creepy cubicles, HelloJelloShip is all decked out for the spooky season. Our employees even look scarier than a Monday morning.'); change_jbtext('hally happyween!')">
+        <img src="images/officelife/JellyBoy_10_Icebreaker.png" alt="JellyBoy10" onClick="changevid('images/officelife/JellyBoy_10_Icebreaker.png'); change_text('When autumn rolls around, you know it’s the season for our annual October icebreaker party. Get to know the people you share the halls with everyday, and perhaps pick their brains for work strategies!'); change_jbtext('my ice is broken, can i have another one?')">
+        <img src="images/officelife/JellyBoy_09_Speaker.png" alt="JellyBoy09" onClick="changevid('images/officelife/JellyBoy_09_Speaker.png'); change_text('As part of our Motivational Monday lecture series, we had the pleasure of hosting the esteemed speaker Faxhound AX-53110JL to share some inspiring words of wisdom with our staff.'); change_jbtext('can you repeat that?')">
+        <img src="images/officelife/JellyBoy_08_Parking.png" alt="JellyBoy08" onClick="changevid('images/officelife/JellyBoy_08_Parking.png'); change_text('The company parking lot features an abundance of spaces for employee vehicles. We like to think there is no commute home, because here at HelloJelloShip: you’re already home.'); change_jbtext('i need an oil change')">
+        <img src="images/officelife/JellyBoy_07_Gym.png" alt="JellyBoy07" onClick="changevid('images/officelife/JellyBoy_07_Gym.png'); change_text('Feeling the burnout of a hard day’s work? Head over to the official HelloJelloShip gym and instead feel the refreshing burn of a work-out! Our employees know the value of strength in both the mind and the muscle.'); change_jbtext('i sprained my eyelash')">
+        <img src="images/officelife/JellyBoy_06_Cafeteria.png" alt="JellyBoy06" onClick="changevid('images/officelife/JellyBoy_06_Cafeteria.png'); change_text('One of the perks of being a HelloJelloShip employee is enjoying a free catered lunch every day of the week. We offer a wide selection of all the major nutrient groups: Food, Drink, Snack, and Vegetable!'); change_jbtext('i’m full')">
+        <img src="images/officelife/JellyBoy_05_Merchandise.png" alt="JellyBoy05" onClick="changevid('images/officelife/JellyBoy_05_Merchandise.png'); change_text('Our employees love showing off their company pride with the latest in HelloJelloShip merchandise. Carry around your HelloJelloShip notebook in your HelloJelloShip tote bag, while keeping HelloJelloShip hydrated with our HelloJelloShip water bottle.'); change_jbtext('can i have a hellojelloship paycheck?')">
+        <img src="images/officelife/JellyBoy_04_BeachDay.png" alt="JellyBoy04" onClick="changevid('images/officelife/JellyBoy_04_BeachDay.png'); change_text('It’s everyone’s favorite day on the corporate calendar - Beach Day! Nothing refreshes the mind quite like surf, sand, and sun.'); change_jbtext('i think i got sunburned')">
+        <img src="images/officelife/JellyBoy_03_Boardroom.png" alt="JellyBoy03" onClick="changevid('images/officelife/JellyBoy_03_Boardroom.png'); change_text('At HelloJelloShip, we believe each and every employee’s voice should be heard. Here you can see our very own intern Jelly Boy take initiative at the annual shareholder meeting.'); change_jbtext('what’s a shareholder?')">
+        <img src="images/officelife/JellyBoy_02_Technology.png" alt="JellyBoy02" onClick="changevid('images/officelife/JellyBoy_02_Technology.png'); change_text('At the office, we are all decked out with state of the art technology. The breathtaking 16-bit visual displays and high-speed 5” floppy disk drives lets our employees stay productive all day.'); change_jbtext('what’s the wifi password?')">
+        <img src="images/officelife/JellyBoy_01_Intro.png" alt="JellyBoy01" onClick="changevid('images/officelife/JellyBoy_01_Intro.png'); change_text('We’re proud to introduce HelloJelloShip’s new unpaid social media intern: Jelly Boy! He’s offered to give you all a weekly behind the scenes look into life here at the undersea office.'); change_jbtext('when is lunch?')">
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social">
+        <div class="instagram-icon">
+          <a href="https://www.instagram.com/hellojelloship/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+        <div class="twitter-icon">
+          <a href="https://twitter.com/hellojelloship" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        <div class="youtube-icon">
+          <a href="https://www.youtube.com/channel/UCDiqt9zvfLAwmo6tPJq4xAg" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+              &copy; 2022 HelloJelloShip LLC &#124; All rights reserved
+      </div>
+  </body>
+
+  <script>
+  //Gallery script
+      function changevid(buttonLink) {
+
+      const src = document.getElementById('change');
+
+      src.src = buttonLink;
+    }
+
+  //Gallery text script
+    function change_text(newText){
+        document.getElementById("posttext").innerHTML = newText;
+    }
+
+  //Jelly Boy text script
+    function change_jbtext(newJBText){
+        document.getElementById("jbtext").innerHTML = newJBText;
+    }
+  </script>
+</html>

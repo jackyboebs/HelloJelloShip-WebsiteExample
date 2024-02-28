@@ -1,0 +1,30 @@
+/* Button that holds information inside, revealed upon click */
+
+.collapsible {
+  display: block;
+  background-color: var(--brand-blue);
+  color: var(--white);
+  cursor: pointer;
+  border: none;
+  width: 650px;
+  border-radius: var(--border-radius);
+  padding: 15px;
+  font-size: var(--update-text);
+  text-align: left;
+  font-family: var(--body-font);
+  transition: 0.5s;
+}
+
+.active, .collapsible:hover {
+  background-color: #3385ff;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  width: auto;
+  padding:20px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}

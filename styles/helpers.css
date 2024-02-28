@@ -1,0 +1,15 @@
+/* Use for spacing elements vertically */
+.spacer10 {
+  height: 10px;
+  width: 100%;
+}
+
+.spacer50 {
+  height: 50px;
+  width: 100%;
+}
+
+.spacer30 {
+  height: 30px;
+  width: 100%;
+}

@@ -1,0 +1,64 @@
+.footer {
+  height: 100px;
+  /* Flexbox container */
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 100px 60px 100px;
+  margin-top: -4px;
+}
+
+.footer > .social {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > .social > .instagram-icon {
+  margin-right: 4em;
+  font-size: 1.3em;
+}
+
+.footer > .social > .instagram-icon a {
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.footer > .social > .instagram-icon a:hover {
+  color: #3385ff;
+}
+
+.footer > .social > .twitter-icon {
+  font-size: 1.3em;
+}
+
+.footer > .social > .twitter-icon a {
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.footer > .social > .twitter-icon a:hover {
+  color: #3385ff;
+}
+
+.footer > .social > .youtube-icon {
+  margin-left: 4em;
+  font-size: 1.3em;
+}
+
+.footer > .social > .youtube-icon a {
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.footer > .social > .youtube-icon a:hover {
+  color: #3385ff;
+}
+
+.footer > .copyright {
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}

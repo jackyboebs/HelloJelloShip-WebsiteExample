@@ -1,0 +1,13 @@
+.bio  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottom-row {
+  display: grid;
+  grid-template-columns: 1fr .3fr 1fr;
+}
+
+.programs img {
+  width: 400px;
+}

@@ -1,0 +1,21 @@
+/* General use button element */
+.button {
+  display: block;
+  background-color: var(--brand-blue);
+  color: var(--white);
+  cursor: pointer;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 15px;
+  font-size: var(--update-text);
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  font-family: var(--body-font);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.active, .button:hover {
+  background-color: #3385ff;
+}

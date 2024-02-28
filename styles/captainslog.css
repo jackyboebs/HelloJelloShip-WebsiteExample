@@ -1,0 +1,34 @@
+.captainslog-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cl-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compass {
+  cursor: pointer;
+}
+
+.compass img {
+  width: 100px;
+  transition: .2s;
+}
+
+.compass img:hover {
+  width: 101px;
+  opacity: .7;
+}
+
+#clock {
+  color: #33ccff;
+  font-size: 30px;
+  text-align: right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

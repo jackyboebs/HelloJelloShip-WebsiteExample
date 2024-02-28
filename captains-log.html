@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HelloJelloShip - Captain's Log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5bdd36adf9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="images/logos/Favicon.png">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/page-container.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/collapsible.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/captainslog.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+  </head>
+
+  <body>
+    <div class="navigation-wrapper">
+      <div class="logo">
+        <a href="index.html">
+        <img src="images/logos/HelloJelloShip_FullLogo.gif" alt="Logo"></a>
+      </div>
+      <div class="links-wrapper">
+        <a href="index.html">About</a>
+        <div class="dropdown"><a href="#">Work</a>
+          <div class="dropdown-content">
+            <a href="projects.html">Projects</a>
+            <a href="images/projects/JackMcCaffrey_Resume_2021_v1.pdf" target="_">Resume</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <div class="dropdown"><a href="#">The Hub</a>
+          <div class="dropdown-content">
+            <a href="office-life.html">Office Life</a>
+            <a href="captains-log.html">Captain's Log</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-container">
+
+      <!-- Captain's Log Controls -->
+
+      <!-- <div class="cl-controls">
+        <div id="clock"></div>
+      </div> -->
+
+      <div class="captainslog-main">
+        <div class="left-column">
+
+          <div class="spacer10"></div>
+
+          <!-- Captain's Log Title -->
+
+          <div class="cl-header">
+            <div class="compass" ><img src="images/captainslog/cl-compass.png" onClick="changevid('images/captainslog/CaptainsLog-GPS-Current.gif');" alt="Compass"></div>
+            <div class="project-header">Log Entries</div>
+          </div>
+
+          <div class="spacer10"></div>
+
+          <!-- Log Entry Boxes -->
+
+          <button type="button" class="collapsible" onClick="changevid('images/captainslog/CaptainsLog-KangarooIsland-GPS-Idle.gif');">3/19/21</button>
+          <div class="content" style="width:600px">
+            <div class="media" style="text-align:center;">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/3L7xbVu5pck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="spacer10"></div>
+            <h2 style="text-align:left;">Days Aboard: 215</h2>
+            I was lucky enough to spot a mother Australian Pelican along the coast of Kangaroo Island.
+            These pelicans have found a comfortable home on the island, adapting to the lifestyle of the local population.⁣
+            <br><br>
+            <div style="text-align:right"><img src="images/captainslog/TheCaptain-Signature.png" style="width:200px;" alt="Captain's Signature"></div>
+          </div>
+
+            <div class="spacer10"></div>
+
+            <button type="button" class="collapsible" onClick="changevid('images/captainslog/CaptainsLog-EvergreenLake-GPS-Idle.gif');">2/4/21</button>
+            <div class="content" style="width:600px">
+              <div class="media" style="text-align:center;">
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/v8Rpew84yAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="spacer10"></div>
+              <h2 style="text-align:left;">Days Aboard: 172</h2>
+              I briefly got stopped in my travels upon a crossing fleet of Canada Geese.
+              While usually regarded for their regular migration pattern, many of these birds have found permanent residence throughout North America.⁣
+              <br><br>
+              <div style="text-align:right"><img src="images/captainslog/TheCaptain-Signature.png" style="width:200px;" alt="Captain's Signature"></div>
+            </div>
+
+            <div class="spacer10"></div>
+
+            <button type="button" class="collapsible" onClick="changevid('images/captainslog/CaptainsLog-Myakka-GPS-Idle.gif');">1/21/21</button>
+            <div class="content" style="width:600px">
+              <div class="media" style="text-align:center;">
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/O7Ku0ko78Ec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="spacer10"></div>
+              <h2 style="text-align:left;">Days Aboard: 158</h2>
+              I caught a glimpse of the local Florida wildlife today, the noble Anhinga.
+              Otherwise known as the Snakebird, these birds will spear fish in the water with their long beaks.
+              Anhingas are often solitary, and spend most of their time in the water searching for their next meal.⁣
+              <br><br>
+              <div style="text-align:right"><img src="images/captainslog/TheCaptain-Signature.png" style="width:200px;" alt="Captain's Signature"></div>
+            </div>
+          </div>
+
+          <!-- GPS screen -->
+
+          <div class="right-column">
+            <img id="change" src="images/captainslog/CaptainsLog-GPS-Current.gif" alt="GPS" style="width:600px">
+          </div>
+        </div>
+      </div>
+
+    <div class="footer">
+      <div class="social">
+        <div class="instagram-icon">
+          <a href="https://www.instagram.com/hellojelloship/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+        <div class="twitter-icon">
+          <a href="https://twitter.com/hellojelloship" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        <div class="youtube-icon">
+          <a href="https://www.youtube.com/channel/UCDiqt9zvfLAwmo6tPJq4xAg" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+              &copy; 2022 HelloJelloShip LLC &#124; All rights reserved
+      </div>
+  </body>
+
+  <script>
+  //Collapsible script
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+  //Gallery script
+    function changevid(buttonLink) {
+
+    const src = document.getElementById('change');
+
+    src.src = buttonLink;
+  }
+
+  //Clock script
+  /*  function currentTime() { */
+  /*      var date = new Date(); /* creating object of Date class */
+  /*      var hour = date.getHours();
+      var min = date.getMinutes();
+      var sec = date.getSeconds();
+      hour = updateTime(hour);
+      min = updateTime(min);
+      sec = updateTime(sec);
+      document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+    /*    var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+  /*   }
+
+    function updateTime(k) {
+      if (k < 10) {
+        return "0" + k;
+      }
+      else {
+        return k;
+      }
+    }
+
+    currentTime(); */
+    /* calling currentTime() function to initiate the process */
+</script>
+</html>
